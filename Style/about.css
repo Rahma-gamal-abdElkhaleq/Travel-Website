@@ -1,0 +1,50 @@
+.about{
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(7, 7, 71);
+    
+}
+.about .header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ padding-top: 50px;
+}
+.about .f-paragraph{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   padding-top: 50px;
+}
+.about .l-paragraph{
+     width: 100%;
+     height: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+   margin-top: 140px;
+  
+}
+.about h2{
+
+font-family: Arial, sans-serif;
+font-size: 30px;
+font-weight: 700;
+color: #fff;
+
+}
+.about .first-paragraph{
+    font-family: Arial, sans-serif;
+font-size: 16px;
+font-weight: 400;
+color: #ccc;
+
+}
+.about .last-paragraph{
+    font-family: Arial, sans-serif;
+font-size: 13px;
+font-weight: 400;
+color: #aaa;
+align-self: center;
+}

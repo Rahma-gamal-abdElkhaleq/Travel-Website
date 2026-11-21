@@ -1,0 +1,172 @@
+
+.destination-content h1   {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+font-size: 35px;
+font-weight: 700;
+color: #17202a;
+
+}
+.destination-content  p  {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+font-weight: 400;
+color: #777;
+
+
+}
+.destination-content h6{
+    display: flex;
+    justify-content: center;
+   font-family: Arial, sans-serif;
+font-size: 13px;
+font-weight: 700;
+letter-spacing: 3px;
+color: #e9a23b;
+
+}
+.destination{
+    margin-top: 50px;
+
+
+}
+.card{
+  
+   display: flex;
+   justify-content: center;
+   width: 1000px;
+   height: 500px;
+   margin-top: 30px;
+   
+   border-radius: 20px;
+  overflow: hidden;
+}
+.card .image{
+   width: 50%;
+}
+.card-content{
+    width: 50%;
+    background-color: whitesmoke;
+padding-left: 30px;
+padding-top: 30px;
+}
+.all-of-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card-content span{
+    font-family: Arial, sans-serif;
+font-size: 14px;
+font-weight: 700;
+color: #e9a23b;
+}
+.card-content  .first-para{
+    font-family: Arial, sans-serif;
+font-size: 13px;
+font-weight: 400;
+letter-spacing: 3px;
+color: #999;
+}
+.card-content h2{
+    font-family: Arial, sans-serif;
+font-size: 45px;
+font-weight: 700;
+color: #17202a;
+}
+.card-content .paragraph{
+  font-family: Arial, sans-serif;
+font-size: 16px;
+font-weight: 400;
+color: #777;
+margin-top: 10px;
+}
+.details{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 1.8rem;
+}
+.details h4{
+    font-family: Arial, sans-serif;
+font-size: 14px;
+font-weight: 700;
+color: #17202a;
+}
+.details p{
+    font-family: Arial, sans-serif;
+font-size: 13px;
+font-weight: 400;
+color: #888;
+}
+.card button{
+    
+width: 150px;
+height: 40px;
+background-color: #17202a;
+font-family: Arial, sans-serif;
+font-size: 16px;
+font-weight: 400;
+color: #fff;
+border: none;
+border-radius: 10px;
+margin-top: 55px;
+margin-left: 40px;
+}
+.card .btn button:hover{
+   background-color: #ae6b07;
+   transition: 0.4s linear;
+}
+.image span h2{
+    font-family: Arial, sans-serif;
+font-size: 30px;
+font-weight: 700;
+color: #e9a23b;
+padding-left: 20px;
+}
+.image{
+    position: relative;
+}
+.image span{
+    position: absolute;
+   top: 70%;
+   right: 5%;
+   background-color: #e4e4e4;
+   border-radius: 10px;
+   width: 140px;
+   height: 70px;
+   padding-top:20px;
+   padding-left: 20px;
+}
+.dot{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ccc;
+     cursor: pointer;
+}
+.dot.active{
+    background-color: #e9a23b;
+}
+.slider-indecator{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  
+}
+.dots{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+}
+.slider-indecator button{
+    width: 100px;
+    height: 30px;
+    background-color: #17202a;
+    border: none;
+    color: white;
+    border-radius: 20px;
+}
